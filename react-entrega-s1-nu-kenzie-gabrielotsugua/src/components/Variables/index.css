@@ -1,0 +1,18 @@
+:root {
+
+    --color-primary: #FD377E;
+    --color-primary-2: #E34981;
+    --color-secundary: #03B898;
+
+    --color-gray-1: #F8F9FA;
+    --color-gray-2: #E9ECEF;
+    --color-gray-3: #868E96;
+    --color-gray-4: #212529;
+
+    --title-1: 28px;
+    --title-2: 24px;
+    --title-3: 20px;
+    --title-4: 12px;
+    --headline: 16px;
+    --body: 12px;
+}
