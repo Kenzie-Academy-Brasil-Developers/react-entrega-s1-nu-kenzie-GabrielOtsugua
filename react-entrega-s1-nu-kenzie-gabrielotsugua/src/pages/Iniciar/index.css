@@ -94,7 +94,7 @@ select {
     position: relative;
 }
 
-.valorTotal p {
+.valorTotal p, .despesas p {
     margin: 0;
     font-size: var(--headline);
     font-weight: bold;
@@ -144,6 +144,14 @@ aside {
     main {
         width: 76%;
     }
+
+    .li h4 {
+        font-size: var(--headline);
+    }
+    
+    .li div {
+        width: 90px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -180,5 +188,13 @@ aside {
         height: 33px;
         width: 245px;
         justify-content: space-between;
+    }
+
+    .li h4 {
+        font-size: var(--headline);
+    }
+    
+    .li div {
+        width: 110px;
     }
 }
